@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        var idList = [];
+
+        function pushClick(clickedID) {
+            idList.push(clickedID)
+            console.log(idList)
+        };
+
+    </script>
+</head>
+<body>
+    <div>
+        <div>
+            <img src="" alt="">
+            <input type = "button" onclick = "pushClick(this.id)" value = "Click Me" id = "0.25" />
+        </div>
+        <div>
+            <img src="" alt="">
+            <input type = "button" onclick = "pushClick(this.id)" value = "Click Me" id = "0.75" />
+        </div>
+    </div>
+</body>
+</html>
